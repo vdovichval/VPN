@@ -99,6 +99,7 @@ EXAMPLE 3A
 
 
 EXAMPLE 3B
+
 ![ip5](https://github.com/user-attachments/assets/9149bd50-0c52-4907-9781-b2e9346f4740)
 
 When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for France (EXAMPLE 3C).
@@ -107,6 +108,7 @@ When we look up the IP address for this VM through www.whatismyipaddress.com we 
 <br />
 
 EXAMPLE 3C
+
 ![ip6](https://github.com/user-attachments/assets/c5f5766f-4024-4062-a65e-46503000a408)
 
 
