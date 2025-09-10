@@ -30,10 +30,8 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 STEP 1 - Locate your own personal IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well. See EXAMPLE 1A below.
 
 EXAMPLE 1A
-<p>
-<img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip1](https://github.com/user-attachments/assets/3badaca9-a9ca-4766-8fc0-140e9675159e)
+
 
 Next we will set up a virtual machine on Azure. 
   
@@ -48,13 +46,11 @@ EXAMPLE 2A
 </p>
 <p>
 
-Creating the Virtual Machine on Example 2B the VM as “VM-FranceCentral” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
+Creating the Virtual Machine on Example 2B the VM as “Windows-VM” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
 
 EXAMPLE 2B
-<p>
-<img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![6](https://github.com/user-attachments/assets/3a321927-4690-47b6-aebd-1dea97d0dedc)
+
 
 For the Username and Password you can create your custom information, just record it personally.
   
@@ -62,10 +58,8 @@ For the Username and Password you can create your custom information, just recor
 <br />
 
 EXAMPLE 2C
-<p>
-<img src="https://i.imgur.com/rXIj3Zb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![8](https://github.com/user-attachments/assets/bf869bf2-3753-4978-9ac0-5f81e3436838)
+
 
 Select the “Networking” tab towards the top of the page and view EXAMPLE 2D inputs to match. 
   
@@ -73,24 +67,20 @@ Select the “Networking” tab towards the top of the page and view EXAMPLE 2D 
 <br />
 
 EXAMPLE 2D
-<p>
-<img src="https://i.imgur.com/OgYgNLK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![IP2](https://github.com/user-attachments/assets/2cf7a800-e5b3-4487-a62b-d76018855e7c)
+
 
 Then select “Review and Create”, once it passes validation select “Create” at the bottom. 
   
 </p>
 <br />
 
-NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.176.18”. See EXAMPLE 2E
+NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20.106.187.167”. See EXAMPLE 2E
 
 EXAMPLE 2E
 
-<p>
-<img src="https://i.imgur.com/ZlH9zI5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip3](https://github.com/user-attachments/assets/3ad3cc80-fb02-4778-927a-2dcd6902c4a2)
+
 
 
 STEP 3 – Log Into the VM and Find IP Address
@@ -101,20 +91,15 @@ Now that we have set up the Virtual Machine we will connecting to it using the a
 </p>
 <br />
 EXAMPLE 3A
-<p>
-<img src="https://i.imgur.com/YPBkMau.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip4](https://github.com/user-attachments/assets/4d8a6784-1386-42c4-be95-1f8a9f6150ef)
+
 
   
 </p>
 <br />
 
 EXAMPLE 3B
-<p>
-<img src="https://i.imgur.com/oPJr2w2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip5](https://github.com/user-attachments/assets/9149bd50-0c52-4907-9781-b2e9346f4740)
 
 When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for France (EXAMPLE 3C).
   
@@ -122,10 +107,8 @@ When we look up the IP address for this VM through www.whatismyipaddress.com we 
 <br />
 
 EXAMPLE 3C
-<p>
-<img src="https://i.imgur.com/nWlX2UM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip6](https://github.com/user-attachments/assets/c5f5766f-4024-4062-a65e-46503000a408)
+
 
 STEP 4 – CONNECTING TO VPN (Free Version)
 
@@ -159,10 +142,7 @@ On the left hand side of the VPN you can select a country where you want your VP
 <br />
 
 EXAMPLE 4C
-<p>
-<img src="https://i.imgur.com/6Rdgg6B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip7](https://github.com/user-attachments/assets/379a8847-d3bb-4cb9-9522-48afa0b7b4a7)
 
 Next we will look at the IP again using the VM browser now that we have connected the VPN to Japan. The website www.whatismyipaddress.com shows yet another IP address using the VPN from Japan. This is quite amazing.
   
@@ -170,15 +150,13 @@ Next we will look at the IP again using the VM browser now that we have connecte
 <br />
 
 EXAMPLE 4D
-<p>
-<img src="https://i.imgur.com/lQsISWb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![ip8](https://github.com/user-attachments/assets/acdcb969-37e7-42e1-9315-6a8d3de7f139)
+
 
 Looking at this exercise we see that we have utilized 3 different IP addresses just from your local computer to connect to the internet.
-Home IP (USA): 137.103.51.136
-Virtual Machin IP (France): 20.216.176.18
-Virtual Machin IP VPN (Japan) 212.102.51.251
+Home IP (USA): 47.220.17.216
+Virtual Machin IP (USA East): 20.106.187.167
+Virtual Machin IP VPN (Japan) 159.26.119.96
 
   
 </p>
