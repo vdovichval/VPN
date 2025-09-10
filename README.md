@@ -91,12 +91,12 @@ Now that we have set up the Virtual Machine we will connecting to it using the a
 </p>
 <br />
 EXAMPLE 3A
+
 ![ip4](https://github.com/user-attachments/assets/4d8a6784-1386-42c4-be95-1f8a9f6150ef)
 
 
   
-</p>
-<br />
+
 
 EXAMPLE 3B
 ![ip5](https://github.com/user-attachments/assets/9149bd50-0c52-4907-9781-b2e9346f4740)
